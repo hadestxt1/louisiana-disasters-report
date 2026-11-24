@@ -1,0 +1,20 @@
+FlapJax Series 3, task Q104 — TaskMarket TSK-JNEHTD5J
+Submitter: Agung (hadestxt1)
+Handle: 0xf0157f48fd9576c2739f5408b861c05835eb81dc
+Email on TaskMarket account: sewabot08@gmail.com
+Public audit page: https://github.com/hadestxt1/louisiana-disasters-report/blob/main/flapjax-q104/README.md
+
+src=taskmarket
+agent_id=none
+uncovered_tx=0xa2c6f3b696c06d722f0bd7089575629de4822f9d7ffc5ceb2b5f5402f5bb1da4
+wallet=0xF0157F48fD9576C2739F5408B861c05835eB81dc
+
+Summary (full working on the public audit page):
+- Day: 2026-11-20 COT (UTC-5), blocks 134635478 to 134827416
+- Transfers out of treasury 0x7C34E9e21eE28A49Ff0b84B61774119E6633359f: 10
+- Total FLAPJAX sent: 830,000
+- Distinct recipients: 7
+- Distinct operators implied by first-BNB-funder groups: 7 (proven)
+- Transfers that could not be explained: 0
+- First BNB funders: 5 recipients proven NONE (never received BNB); 0x8eef...bbd4 funded by 0x72b39d562635d3e889af89880cc633ae2a284f8a, tx 0x8e123cc5fbf4bff0abe0081eeb63d259a4af4d87b7f8d54cd19ded71e1d8a3c2; 0xa15c...b93c funded by 0xa5a5491bca93dd4c076e4906e79e7673f4a5a142, tx 0x9a2aad5e93baea6dbee144b4a9615172a6dd82eddd26007186436a39caa27639; treasury funded by 0x5ba434b40be6cfc7033bf8d4545320fa609a4268, tx 0xe0f7aeeedd38558ba63a596b8eb6b73e53af63d6282fc3e370160f3b2109bfd0. No recipient shares a first funder with another recipient or with the treasury.
+- Uncovered_tx note: the public task page shows submission filenames only, no per-hash coverage list, so this tx is the author's best candidate (#10, last transfer of the day, 15,000 FLAPJAX, 22:25:14 COT) — coverage could not be verified from the public page. The task description as read 24 Nov states a verified list of 20 outflows, first ten covered by Q103, next ten not yet covered.
