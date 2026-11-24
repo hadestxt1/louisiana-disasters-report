@@ -1,0 +1,20 @@
+FlapJax Series 3, task Q102 — TaskMarket task ID 0xc1d799a4aaa844b60c182d42a19af0a3fc7b333116611960946d105c8ef31cb2
+Submitter: Agung (hadestxt1)
+Handle: 0xf0157f48fd9576c2739f5408b861c05835eb81dc
+Email on TaskMarket account: sewabot08@gmail.com
+Public audit page: https://github.com/hadestxt1/louisiana-disasters-report/blob/main/flapjax-q102/README.md
+
+src=taskmarket
+agent_id=none
+uncovered_tx=0x8bc1664f3d6f7e336e41a55d607f91376ed162f460789e3e209b7080bafade01
+wallet=0xF0157F48fD9576C2739F5408B861c05835eB81dc
+
+Summary (full working on the public audit page):
+- Day: 2026-11-18 COT (UTC-5), blocks 134251698 to 134443554
+- Transfers out of treasury 0x7C34E9e21eE28A49Ff0b84B61774119E6633359f: 14
+- Total FLAPJAX sent: 1,005,000
+- Distinct recipients: 10
+- Distinct operators implied by first-BNB-funder groups: 10 (proven)
+- Transfers that could not be explained: 0
+- First BNB funders: 7 recipients proven NONE (never received BNB: 0x575a...31cd, 0x7d1d...21ef2, 0xa8fe...0fc55, 0x42c8...7ad6, 0xee08...358f, 0xde58...8930, 0xd8ef...482e); 0x335a...93e3 funded by 0xc76c41cd1ab2c6a730865cd58cfedfada6e631ab, tx 0x13040ac5c98df487cbbc466a17923ccb412095cb9422c54e7672fa7ac26db8e4; 0xa15c...b93c funded by 0xa5a5491bca93dd4c076e4906e79e7673f4a5a142, tx 0x9a2aad5e93baea6dbee144b4a9615172a6dd82eddd26007186436a39caa27639; KEY FINDING: 0xfb20...24e6 was first funded by the treasury itself (0.0005 BNB, tx 0xa3d7042983f4f2352b9b8f324414688db10887e2b2b2a125deca9a8bec6624e7, 10 Oct 2026 08:25:31 COT — four seconds before the treasury funded Q103 recipient 0xfd5e... the same morning), so it shares a first funder with the treasury — the treasury's operator group, not a separate operator; treasury funded by 0x5ba434b40be6cfc7033bf8d4545320fa609a4268, tx 0xe0f7aeeedd38558ba63a596b8eb6b73e53af63d6282fc3e370160f3b2109bfd0.
+- Uncovered_tx note: the public task page shows submission filenames only, no per-hash coverage list, so this tx is the author's best candidate (#14, last transfer of the day, 50,000 FLAPJAX, 22:12:52 COT) — coverage could not be verified from the public page.
